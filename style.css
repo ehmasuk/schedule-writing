@@ -467,15 +467,16 @@
 
 
 .skltbs-mode-tabs.use-fade .skltbs-panel{
-    border-color: #74b6f8;
-    background: rgb(239 244 249);
+    border-color: #e1e6ea;
+    background: #fff;
     height: 100%;
+
 }
 .skltbs-theme-light .skltbs-tab {
     background: rgb(239 244 249) !important;
 }
 .skltbs-theme-light .skltbs-tab.skltbs-active{
-    background: #773dff !important;
+    background: linear-gradient(to right, #ff416c, #ff4b2b) !important;
 }
 .skltbs-theme-light .skltbs-panel, .skltbs-theme-dark .skltbs-panel{
     padding: 15px !important;
@@ -484,6 +485,77 @@
     box-shadow: none !important;
 }
 .skltbs-theme-light .skltbs-tab:hover{
-    background: #773dff !important;
+    background: linear-gradient(to right, #ff416c, #ff4b2b) !important;
     color: #fff;
+}
+.skltbs-theme-light .skltbs-tab{
+    color: #000;
+}
+.skltbs-theme-light .skltbs-tab-group, .skltbs-theme-dark .skltbs-tab-group{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skltbs-theme-light .skltbs-tab-item, .skltbs-theme-dark .skltbs-tab-item{
+    width: 32%;
+    margin-bottom: 20px !important;
+}
+.skltbs-theme-light .skltbs-tab{
+    width: 100%;
+    min-height: 60px;
+}
+
+
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #ff4b2b 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
