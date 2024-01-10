@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="skeletabs.css">
+<title>Title</title>
+</head>
+<body>
+
+    
+
+
+
+    <div class="options-popup-wraper">
+        <div class="options-popup">
+            <div class="left-side">
+                <div class="pop-header">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8h9m4 0h3m-9 8h9M4 16h3"/><circle cx="9" cy="16" r="2"/><circle cx="15" cy="8" r="2"/></g></svg>
+                        Options
+                    </div>
+                </div>
+                <div class="popup-options">
+                    <div onclick="selectSidebarPopOption('writing')" class="single-option active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256"><path fill="currentColor" d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m0 192a88 88 0 1 1 88-88a88.1 88.1 0 0 1-88 88m64-88a8 8 0 0 1-8 8h-56a8 8 0 0 1-8-8V72a8 8 0 0 1 16 0v48h48a8 8 0 0 1 8 8"/></svg>
+                        <p>Schedule writing</p>
+                    </div>
+                    <div onclick="selectSidebarPopOption('write-novel')" class="single-option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256"><path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88"/></svg>
+                        <p>Objective</p>
+                    </div>
+                    <div onclick="selectSidebarPopOption('write-now')" class="single-option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256"><path fill="currentColor" d="M216 48H40a16 16 0 0 0-16 16v160a15.85 15.85 0 0 0 9.24 14.5A16.13 16.13 0 0 0 40 240a15.89 15.89 0 0 0 10.25-3.78a.69.69 0 0 0 .13-.11L82.5 208H216a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16m0 144H82.5a16 16 0 0 0-10.3 3.75l-.12.11L40 224V64h176Zm-100-64a12 12 0 1 1 12 12a12 12 0 0 1-12-12m-44 0a12 12 0 1 1 12 12a12 12 0 0 1-12-12m88 0a12 12 0 1 1 12 12a12 12 0 0 1-12-12"/></svg>
+                        <p>What you want to write now</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="popup-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 7l10 10M7 17L17 7"/></svg>
+                </div>
+                <div class="right-side-body">
+
+                    <div class="scedule-writing-body">
+
+
+
+                        <div class="single-sceduled-box">
+                            <div class="time-box">
+                                <div class="time">
+                                    10:57
+                                    <div class="ampm">Am</div>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <div class="toggle-switch-background">
+                                        <div class="toggle-switch-handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="name">Alerm name</div>
+                            <div class="show-weeks">
+                                <p>Sa</p>
+                                <p class="active">Su</p>
+                                <p>Mo</p>
+                                <p>Tu</p>
+                                <p>We</p>
+                                <p>Th</p>
+                                <p>Fr</p>
+                            </div>
+                        </div>
+                        <div class="single-sceduled-box active">
+                            <div class="time-box">
+                                <div class="time">
+                                    10:57
+                                    <div class="ampm">Am</div>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <div class="toggle-switch-background">
+                                        <div class="toggle-switch-handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="name">Alerm name</div>
+                            <div class="show-weeks">
+                                <p>Sa</p>
+                                <p class="active">Su</p>
+                                <p>Mo</p>
+                                <p>Tu</p>
+                                <p>We</p>
+                                <p>Th</p>
+                                <p>Fr</p>
+                            </div>
+                        </div>
+
+                        <div onclick="showAddnewthePopup()" class="plus-writing">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="#fff" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg>
+                        </div>
+                    </div>
+
+
+                    <div class="how-to-write-body">
+                        <p>Hello this is how to write body</p>
+                    </div>
+                    <div class="what-to-write">
+                        
+                        <div id="skltbs-tab-container" class="skltbs-theme-light use-fade">
+                            <ul class="skltbs-tab-group">
+                                <li class="skltbs-tab-item">
+                                    <button class="skltbs-tab">Escribir la introducción</button>
+                                </li>
+                                <li class="skltbs-tab-item">
+                                    <button class="skltbs-tab">Escribir el clímax</button>
+                                </li>
+                                <li class="skltbs-tab-item">
+                                    <button class="skltbs-tab">Escribir el final</button>
+                                </li>
+                            </ul>
+                            <div class="skltbs-panel-group">
+                                <div class="skltbs-panel">
+                                    <div class="video-cont">
+                                        <iframe class="running-video" src="https://www.youtube.com/embed/ft7FbMC_xSg" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <h5 class="mt-3">7 características de los textos</h5>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="video-cont">
+                                        <iframe class="running-video" src="https://www.youtube.com/embed/ft7FbMC_xSg" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <h5 class="mt-3">Cómo superar el bloqueo con inteligencia artificial</h5>
+                                </div>
+                                <div class="skltbs-panel">
+                                    <div class="video-cont">
+                                        <iframe class="running-video" src="https://www.youtube.com/embed/ft7FbMC_xSg" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <h5 class="mt-3">Consejos para mantener la atención de los lectores</h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+        <div class="add-new-scedule-pop-wraper">
+            <div class="add-new-scedule-pop">
+                <h4 class="mb-3">Add writing schedule</h4>
+                <form>
+                    <label>Scedule name:</label>
+                    <div class="single-option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M21.455 5.416a.75.75 0 0 1-.096.943l-9.193 9.192a.75.75 0 0 1-.34.195l-3.829 1a.75.75 0 0 1-.915-.915l1-3.828a.778.778 0 0 1 .161-.312L17.47 2.47a.75.75 0 0 1 1.06 0l2.829 2.828a.756.756 0 0 1 .096.118m-1.687.412L18 4.061l-8.518 8.518l-.625 2.393l2.393-.625z" clip-rule="evenodd"/><path fill="currentColor" d="M19.641 17.16a44.4 44.4 0 0 0 .261-7.04a.403.403 0 0 1 .117-.3l.984-.984a.198.198 0 0 1 .338.127a45.91 45.91 0 0 1-.21 8.372c-.236 2.022-1.86 3.607-3.873 3.832a47.77 47.77 0 0 1-10.516 0c-2.012-.225-3.637-1.81-3.873-3.832a45.922 45.922 0 0 1 0-10.67c.236-2.022 1.86-3.607 3.873-3.832a47.75 47.75 0 0 1 7.989-.213a.2.2 0 0 1 .128.34l-.993.992a.402.402 0 0 1-.297.117a46.164 46.164 0 0 0-6.66.255a2.89 2.89 0 0 0-2.55 2.516a44.421 44.421 0 0 0 0 10.32a2.89 2.89 0 0 0 2.55 2.516c3.355.375 6.827.375 10.183 0a2.89 2.89 0 0 0 2.55-2.516"/></svg>
+                        <input type="text" placeholder="Scedule name">
+                    </div>
+                    <label>Select time:</label>
+                    <div class="single-option">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M6.429 2.413a.75.75 0 0 0-1.13-.986l-1.292 1.48a4.75 4.75 0 0 0-1.17 3.024L2.78 8.65a.75.75 0 1 0 1.5.031l.056-2.718a3.25 3.25 0 0 1 .801-2.069z"/><path fill="currentColor" fill-rule="evenodd" d="M6.237 7.7a4.214 4.214 0 0 1 4.206-3.95H11V3a1 1 0 1 1 2 0v.75h.557a4.214 4.214 0 0 1 4.206 3.95l.221 3.534a7.376 7.376 0 0 0 1.308 3.754a1.617 1.617 0 0 1-1.135 2.529l-3.407.408V19a2.75 2.75 0 1 1-5.5 0v-1.075l-3.407-.409a1.617 1.617 0 0 1-1.135-2.528a7.377 7.377 0 0 0 1.308-3.754zm4.206-2.45a2.714 2.714 0 0 0-2.709 2.544l-.22 3.534a8.877 8.877 0 0 1-1.574 4.516a.117.117 0 0 0 .082.183l3.737.449c1.489.178 2.993.178 4.482 0l3.737-.449a.117.117 0 0 0 .082-.183a8.876 8.876 0 0 1-1.573-4.516l-.221-3.534a2.714 2.714 0 0 0-2.709-2.544zm1.557 15c-.69 0-1.25-.56-1.25-1.25v-.75h2.5V19c0 .69-.56 1.25-1.25 1.25" clip-rule="evenodd"/><path fill="currentColor" d="M17.643 1.355a.75.75 0 0 0-.072 1.058l1.292 1.48a3.25 3.25 0 0 1 .8 2.07l.057 2.717a.75.75 0 0 0 1.5-.031l-.057-2.718a4.75 4.75 0 0 0-1.17-3.024l-1.292-1.48a.75.75 0 0 0-1.058-.072"/></svg>
+                        <input type="time">
+                    </div>
+                    <label>Select week days:</label>
+                    <div class="weekday-select">
+                        <p>Sa</p>
+                        <p class="active">Su</p>
+                        <p>Mo</p>
+                        <p>Tu</p>
+                        <p>We</p>
+                        <p>Th</p>
+                        <p>Fr</p>
+                    </div>
+                    <label>Notification options:</label>
+                    <div class="notificatio-select">
+                        <label>
+                            <input type="checkbox" checked>
+                            Email notification
+                        </label>
+                        <label>
+                            <input type="checkbox" checked>
+                            Push notification
+                        </label>
+                    </div>
+                    <div class="save-btns">
+                        <button class="save">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.75 3h-1A2.75 2.75 0 0 0 3 5.75v12.5A2.75 2.75 0 0 0 5.75 21H6v-6a2.25 2.25 0 0 1 2.25-2.25h7.5A2.25 2.25 0 0 1 18 15v6h.25A2.75 2.75 0 0 0 21 18.25V8.286a3.25 3.25 0 0 0-.952-2.299l-2.035-2.035A3.25 3.25 0 0 0 15.75 3v4.5a2.25 2.25 0 0 1-2.25 2.25H9A2.25 2.25 0 0 1 6.75 7.5zm7.5 0v4.5a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75V3zm2.25 18v-6a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0-.75.75v6z"/></svg>
+                            Save
+                        </button>
+                        <button class="cancel">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"/></svg>
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="skeletabs.js"></script>
+
+    <script>
+
+
+
+
+
+        const scedulepopupOptions = document.querySelectorAll('.popup-options .single-option')
+        scedulepopupOptions.forEach(option=>{
+            option.addEventListener('click',function(){
+                scedulepopupOptions.forEach(option=>option.classList.remove('active'))
+                this.classList.add('active')
+            })
+            
+        })
+
+        const weekdays = document.querySelectorAll('.options-popup-wraper .add-new-scedule-pop .weekday-select p')
+        weekdays.forEach(option=>{
+            option.addEventListener('click',function(){
+                this.classList.toggle('active')
+                const activeDaysArray = [...document.querySelectorAll('.weekday-select p.active')].map((element) =>{
+                    return element.textContent
+                });
+                console.log(activeDaysArray);
+            })
+        })
+
+
+
+        function selectSidebarPopOption(e){
+            if( e ==='writing' ){
+                document.querySelector('.how-to-write-body').style.display = 'none'
+                document.querySelector('.what-to-write').style.display = 'none'
+                document.querySelector('.scedule-writing-body').style.display = 'grid'
+            }
+            if( e ==='write-novel' ){
+                document.querySelector('.how-to-write-body').style.display = 'block'
+                document.querySelector('.what-to-write').style.display = 'none'
+                document.querySelector('.scedule-writing-body').style.display = 'none'
+            }
+            if( e ==='write-now' ){
+                document.querySelector('.how-to-write-body').style.display = 'none'
+                document.querySelector('.what-to-write').style.display = 'block'
+                document.querySelector('.scedule-writing-body').style.display = 'none'
+            }
+        }
+
+
+        function showAddnewthePopup(){
+            document.querySelector('.add-new-scedule-pop-wraper').style.display = 'block'
+        }
+
+
+
+
+
+
+document.querySelectorAll('.toggle-switch input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+    const parentBox = this.closest('.single-sceduled-box');
+
+    if (this.checked) {
+        parentBox.classList.add('active');
+    } else {
+        parentBox.classList.remove('active');
+    }
+    });
+});
+
+$('#skltbs-tab-container').skeletabs();
+
+    </script>
+</body>
+</html>
