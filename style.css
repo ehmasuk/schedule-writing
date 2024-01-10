@@ -480,3 +480,10 @@
 .skltbs-theme-light .skltbs-panel, .skltbs-theme-dark .skltbs-panel{
     padding: 15px !important;
 }
+.skltbs-theme-light .skltbs-tab:focus{
+    box-shadow: none !important;
+}
+.skltbs-theme-light .skltbs-tab:hover{
+    background: #773dff !important;
+    color: #fff;
+}
